@@ -9,9 +9,9 @@ let person = {
     name: 'joke',
     age: 13,
     gender: {
-        name: 'male'    
+        sex: 'male'    
     },
     arr: arr
 }
 console.log(person.name)
-console.log(person.gender)
+console.log(person.gender.sex)
